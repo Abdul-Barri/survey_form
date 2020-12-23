@@ -1,0 +1,364 @@
+body {
+    background: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    
+}
+
+#main {
+    background: rgb(252, 234, 237);
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+    
+}
+#title {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+#description {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#form-div {
+    background-color: #483D8B;
+    width: 700px;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+
+}
+
+label {
+    color: white;
+    font-size: 23px;
+}
+
+#name {
+    width: 680px;
+    height: 28px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+
+#email {
+    width: 680px;
+    height: 28px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#number {
+    width: 680px;
+    height: 28px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#dropdown {
+    width: 680px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#textarea {
+    width: 680px;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: start;
+    margin-top: 7px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#r1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#r2 {
+    margin-bottom: 20px;
+}
+
+#r3 {
+    margin-bottom: 20px;
+}
+
+#cb1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cb2 {
+    margin-bottom: 20px;
+}
+
+#cb3 {
+    margin-bottom: 20px;
+}
+
+#cb4 {
+    margin-bottom: 20px;
+}
+
+#cb5 {
+    margin-bottom: 20px;
+}
+
+#cb6 {
+    margin-bottom: 20px;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+    font-size: 23px;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    border: none;
+    padding: 5px 0;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #form-div {
+        width: 600px;
+        padding: 30px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 550px;
+    }
+    #submit {
+        width: 400px;
+        margin-left: 100px;
+    }
+    label, #submit {
+        font-size: 20px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media (max-width: 600px) {
+    #form-div {
+        width: 520px;
+        padding: 25px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 500px;
+    }
+    #submit {
+        width: 350px;
+        margin-left: 85px;
+    }
+    label, #submit {
+        font-size: 18px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (max-width: 414px) {
+
+    #form-div {
+        width: 350px;
+        padding: 20px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 300px;
+    }
+    #submit {
+        width: 150px;
+        margin-left: 100px;
+    }
+    label, #submit, #description {
+        font-size: 15px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 12px;
+    }
+    #title {
+        font-size: 30px;
+    }
+    
+
+
+
+}
+
+@media (max-width: 384px) {
+
+    #form-div {
+        width: 320px;
+        padding: 20px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 300px;
+    }
+    #submit {
+        width: 150px;
+        margin-left: 85px;
+    }
+    label, #submit, #description {
+        font-size: 15px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 12px;
+    }
+    #title {
+        font-size: 30px;
+    }
+    
+
+
+
+}
+
+@media (max-width: 375px) {
+
+    #form-div {
+        width: 315px;
+        padding: 18px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 300px;
+    }
+    #submit {
+        width: 150px;
+        margin-left: 80px;
+    }
+    label, #submit, #description {
+        font-size: 15px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 12px;
+    }
+    #title {
+        font-size: 30px;
+    }
+    
+
+
+
+}
+
+@media (max-width: 360px) {
+
+    #form-div {
+        width: 300px;
+        padding: 17px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 280px;
+    }
+    #submit {
+        width: 150px;
+        margin-left: 75px;
+    }
+    label, #submit, #description {
+        font-size: 15px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 12px;
+    }
+    #title {
+        font-size: 30px;
+    }
+    
+
+
+
+}
+
+@media (max-width: 320px) {
+
+    #form-div {
+        width: 260px;
+        padding: 17px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 250px;
+    }
+    #submit {
+        width: 140px;
+        margin-left: 60px;
+    }
+    label, #submit, #description {
+        font-size: 13px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 11px;
+    }
+    #title {
+        font-size: 28px;
+    }
+    #textarea {
+        margin-bottom: 15px;
+    }
+    
+
+
+
+}
+
+@media (max-width: 240px) {
+
+    #form-div {
+        width: 190px;
+        padding: 14px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        width: 160px;
+    }
+    #submit {
+        width: 120px;
+        margin-left: 35px;
+    }
+    label, #submit, #description {
+        font-size: 13px;
+    }
+    #name, #number, #email, #textarea, #dropdown {
+        font-size: 11px;
+    }
+    #title {
+        font-size: 20px;
+    }
+    #textarea {
+        margin-bottom: 11px;
+    }
+    
+
+
+
+}
